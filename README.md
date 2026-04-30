@@ -6,7 +6,7 @@ DevOps / Infrastructure
 Студент направления **«Информационная безопасность автоматизированных систем»**.  
 Интересуюсь **DevOps, Linux, контейнеризацией, инфраструктурой и ИБ**.
 
-**Связаться со мной:** [💬 Telegram](https://t.me/moytgz)
+**Связаться со мной:** [💬 Telegram](https://t.me/maytgzr)
 
 ---
 
@@ -74,5 +74,5 @@ DevOps / Infrastructure
 
 ## 📫 Контакты
 
-- **Telegram:** [@moytgz](https://t.me/moytgz)
+- **Telegram:** [@moytgz](https://t.me/maytgzr)
 - **Email:** dencamenew@yandex.ru
