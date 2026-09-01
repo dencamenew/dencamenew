@@ -1,77 +1,124 @@
-# Привет, меня зовут Денис 👋
+# Привет! Я Денис 👋
 
-## Обо мне
+### DevOps / Infrastructure Engineer | Intern / Junior
 
-DevOps / Infrastructure
-Студент направления **«Информационная безопасность автоматизированных систем»**.  
-Интересуюсь **DevOps, Linux, контейнеризацией, инфраструктурой и ИБ**.
+Студент 3 курса направления **«Информационная безопасность автоматизированных систем»**.
 
-**Связаться со мной:** [💬 Telegram](https://t.me/maytgzr)
+Развиваюсь в **DevOps / SRE**: Linux, контейнеризация, Kubernetes, Infrastructure as Code, CI/CD, GitOps и мониторинг.
 
----
+Практикуюсь не только на учебных задачах — разворачиваю собственную Kubernetes-инфраструктуру и занимаюсь инфраструктурой веб-сервисов, работающих на VPS.
 
-## 🛠 Стек технологий
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DE382B?style=for-the-badge&logo=redis&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-
-**Python** • **Java** • **Bash** • **FastAPI** • **Docker** • **Docker Compose** • **Kubernetes** • **Nginx** • **PostgreSQL** • **Redis** • **Ansible** • **Terraform** • **GitLab CI** • **Prometheus** • **Grafana**
+📫 **Связаться:** [Telegram](https://t.me/maytgzr) · [Email](mailto:dencamenew@yandex.ru)
 
 ---
 
-## 🔧 Инструменты
+## 🚀 Основные проекты
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+### ☸️ Kubernetes Infrastructure Lab
 
-**Git** • **Linux** • **Docker** • **GitLab CI** • **Vercel**
+[**→ GitHub Repository**](https://github.com/dencamenew/infra)
 
----
+Локальная Kubernetes-инфраструктура для микросервисного web-приложения с полностью автоматизированным развёртыванием.
 
-## 💻 ОС
+**Что реализовано:**
 
-![Linux](https://img.shields.io/badge/Linux-Main_OS-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+* Kubernetes-кластер из **3 виртуальных машин**
+* создание инфраструктуры через **Terraform**
+* автоматическая конфигурация узлов через **Ansible**
+* развёртывание Kubernetes через **kubeadm + containerd**
+* **ingress-nginx** для маршрутизации
+* локальный **GitLab Container Registry**
+* GitOps-деплой через **Argo CD**
+* мониторинг через **Prometheus + Grafana**
+* контейнеризация сервисов через **Docker**
 
-**Linux**
+**Архитектура:**
 
----
+`Terraform → Ansible → kubeadm → Kubernetes → ingress-nginx → GitLab Registry → Argo CD → Prometheus/Grafana`
 
-## 📁 Опыт и проекты
-
-- **🐾 Практика / стажировка в RTLabs** —[RTLabs](https://github.com/NataliyaTar/kotouslugi/tree/2025-summer-team-dark-group)  
-  командная разработка сервиса для получения загранпаспорта  
-  Работа с БД, поддержка стабильной работы сервиса, взаимодействие в команде из 5 человек.
-
-- **🏛 Хакатон от MAX и VK Education** — [VSUET](https://github.com/dencamenew/VSUET)  
-  Backend API на **FastAPI**, frontend на **Next.js + TypeScript**, контейнеризация через **Docker / Docker Compose**, интеграция **PostgreSQL**, **Redis**, Telegram-бота на **Node.js**, деплой frontend на **Vercel**.
+**Результат:** воспроизводимая Kubernetes-инфраструктура, охватывающая полный цикл от создания виртуальных машин до автоматической доставки приложения и мониторинга состояния кластера.
 
 ---
 
+### 🏛 Infrastructure for University Information System
+
+🌐 **Production:** [universityapp.site](https://universityapp.site)
+
+Развиваю и поддерживаю инфраструктуру информационной системы ВУЗа.
+
+**Что реализовано:**
+
+* отдельные **prod/dev окружения**
+* CI/CD pipeline на **GitHub Actions**
+* автоматическая сборка Docker-образов
+* публикация образов в **GHCR**
+* автоматический деплой на VPS
+* **Docker Compose** для запуска сервисов
+* **Nginx** как reverse proxy
+* HTTPS и автоматическое обновление SSL-сертификатов
+* мониторинг через **Prometheus, Grafana, node-exporter, cAdvisor**
+* управление контейнерами через **Portainer**
+* базовая защита SSH и ограничение внешнего доступа к сервисам
+
+**Архитектура:**
+
+`GitHub Actions → GHCR → VPS → Docker Compose → Nginx → FastAPI/Redis → Prometheus/Grafana`
+
+---
+
+## 💼 Опыт
+
+### RTLabs — стажировка
+
+Командная разработка backend-сервиса.
+
+* работа с **PostgreSQL**
+* проектирование структуры данных и SQL-запросов
+* контейнеризация сервисов через **Docker**
+* участие в **CI/CD**
+* Git-flow и code review
+* работа в команде разработки
+
+[**→ Репозиторий проекта**](https://github.com/NataliyaTar/kotouslugi/tree/2025-summer-team-dark-group)
+
+---
+
+## 🛠 Технологии
+
+### Infrastructure & DevOps
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square\&logo=kubernetes\&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square\&logo=terraform\&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square\&logo=ansible\&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square\&logo=argo\&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square\&logo=nginx\&logoColor=white)
+
+### CI/CD & Monitoring
+
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square\&logo=gitlab\&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square\&logo=githubactions\&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square\&logo=prometheus\&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square\&logo=grafana\&logoColor=white)
+
+### Development & Data
+
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square\&logo=gnubash\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square\&logo=redis\&logoColor=white)
 
 ---
 
 ## 🌐 Базовые знания
 
-**OSI** • **TCP/IP** • **TLS** • **HTTP/HTTPS** • **CI/CD** • **Infrastructure as Code**
+`TCP/IP` · `DNS` · `HTTP/HTTPS` · `TLS` · `Reverse Proxy` · `CI/CD` · `GitOps` · `Infrastructure as Code`
 
 ---
 
 ## 📫 Контакты
 
-- **Telegram:** [@moytgz](https://t.me/maytgzr)
-- **Email:** dencamenew@yandex.ru
+[![Telegram](https://img.shields.io/badge/Telegram-@maytgzr-26A5E4?style=flat-square\&logo=telegram\&logoColor=white)](https://t.me/maytgzr)
+
+**Email:** [dencamenew@yandex.ru](mailto:dencamenew@yandex.ru)
