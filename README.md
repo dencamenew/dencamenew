@@ -66,23 +66,6 @@
 
 ---
 
-## 💼 Опыт
-
-### RTLabs — стажировка
-
-Командная разработка backend-сервиса.
-
-* работа с **PostgreSQL**
-* проектирование структуры данных и SQL-запросов
-* контейнеризация сервисов через **Docker**
-* участие в **CI/CD**
-* Git-flow и code review
-* работа в команде разработки
-
-[**→ Репозиторий проекта**](https://github.com/NataliyaTar/kotouslugi/tree/2025-summer-team-dark-group)
-
----
-
 ## 🛠 Технологии
 
 ### Infrastructure & DevOps
